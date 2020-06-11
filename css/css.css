@@ -1,0 +1,114 @@
+*{margin: 0px; padding: 0px; list-style: none; text-decoration: none}
+.top{
+    width: 1920px;
+    height: 127px;
+    margin: 0 auto;
+    line-height: 127px;
+}
+.top a img{
+    margin: 10px 30px;
+    margin-right: 150px;
+    float: left;
+}
+.top ul li{
+    float: left;
+}
+.top ul li:hover a{
+    color: red
+}
+
+.top ul li a{
+    font-size: 39px;
+    color: #FFF;
+    margin-right: 117px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Microsoft YaHei";
+}
+.search{
+    padding-top: 48px;
+    width: 20%;
+    display: flex; 
+}
+.search input{
+    float: left;
+    flex: 4;
+    height: 40px;
+    outline: none;
+    border: 1px solid red;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.search button{
+    float: right;
+    flex: 1;
+    height: 39px;
+    background-color: red;
+    color: white;
+    border-style: none;
+    outline: none;
+}
+.search button i{
+    font-style: normal;
+}
+.search button:hover{
+    font-size: 16px;
+}
+.banner .banner-1{
+    background: url(../i/banner.jpg);
+    width: 100%;
+    height: 650px;
+    
+}
+.main{
+    width: 100%;
+    height: 1188px;
+    margin: 0 auto;
+}
+.mian-1{
+    width: 1920px;
+    height: 229px;
+    margin: 0 auto;
+    text-align: center;
+}
+.mian-1 a{
+    color: black;
+    font-weight: bold;
+    font-family: "Microsoft YaHei";
+    font-size: 39px;
+    line-height: 216px;
+}
+.mian-2{
+    width: 2250px;
+    height: 229px;
+    margin: 0 auto;
+}
+.mian-2 ul{
+    float: left;
+}
+.mian-2 ul li{
+    float: right;
+    margin-left: 50px;
+}
+.m{
+    width: 100%;
+    text-align: center;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background: black;
+}
+.v{
+   width: 1920px;
+   height: 200px;
+   margin: 0 auto;
+   text-align: center;
+}
+.v a{
+    color: #FFF;
+    font-weight: bold;
+    font-family: "Microsoft YaHei";
+    font-size: 39px;
+    line-height: 216px;
+}
